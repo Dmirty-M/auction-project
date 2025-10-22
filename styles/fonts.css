@@ -1,0 +1,10 @@
+/* Используем системные шрифты для простоты */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.cover__title,
+.lots__title,
+.about__title {
+    font-family: 'Georgia', serif;
+}
