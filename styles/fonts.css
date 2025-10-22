@@ -1,10 +1,15 @@
-/* Используем системные шрифты для простоты */
-body {
-    font-family: 'Arial', sans-serif;
+@font-face {
+    font-family: 'Raleway';
+    src: url('../vendors/fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../vendors/fonts/Raleway-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-.cover__title,
-.lots__title,
-.about__title {
-    font-family: 'Georgia', serif;
+@font-face {
+    font-family: 'Raleway';
+    src: url('../vendors/fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../vendors/fonts/Raleway-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
